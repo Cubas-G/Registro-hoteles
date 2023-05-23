@@ -1,38 +1,59 @@
-.App {
+
+.Container-principal{
+  margin: auto;
+  width: 40%;
+}
+
+.hotelL{
+  font-size:larger;
+  margin: auto;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.resultado{
+  margin: auto;
+  width: 40%;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-input {
+  margin-bottom: 20px;
+  
+}
+
+.form-input label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  
+}
+
+.form-input input {
+
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #0fb709;
+  border-radius: 4px;
+}
+
+.form-input input[type="submit"] {
+  background-color: #4CAF50;
+  color: rgb(182, 23, 23);
+  cursor: pointer;
+}
+
+.form-input input[type="submit"]:hover {
+  background-color: #45a049;
 }
